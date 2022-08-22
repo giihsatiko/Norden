@@ -1,0 +1,50 @@
+.relatos-blog {
+  padding: 120px 0;
+  .titulo-swipers {
+    padding-bottom: 40px;
+  }
+  .relato {
+    background-color: #c4c4c4;
+    padding: 40px;
+    border-radius: 20px;
+    .dados-relato {
+      gap: 20px;
+      padding-bottom: 20px;
+      img {
+        height: 77px;
+        width: 77px;
+      }
+      .nome-tipo {
+        p {
+          margin: 0;
+        }
+      }
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.blog {
+  .titulo-swipers {
+    padding-top: 120px;
+  }
+  .link-blog {
+    text-align: left;
+    .img-blog {
+      position: relative;
+      .data {
+        position: absolute;
+        bottom: 0;
+        left: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #1e315b 0%, #496dbf 100%);
+        opacity: 0.9;
+        padding: 6px 20px;
+      }
+    }
+  }
+}

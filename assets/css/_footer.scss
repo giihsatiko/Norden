@@ -1,0 +1,40 @@
+footer {
+  background: linear-gradient(90deg, #1e315b 0%, #496dbf 100%);
+}
+
+.links-footer {
+  padding-top: 84px;
+  .logo-footer {
+    padding-bottom: 59px;
+    img {
+      height: 22.19px;
+    }
+  }
+  .dropdown-footer-button, h4 {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+  }
+  .dropdown-footer {
+    a {
+      font-weight: 300;
+      font-size: 15px;
+    }
+  }
+}
+.contato {
+  padding: 90px 0 52px 0;
+  h4 {
+    padding-bottom: 15px;
+  }
+}
+.responsaveis {
+  padding: 41px 0;
+  border-top: 2px solid #C18E24;
+  .oxigen {
+    gap: 7px;
+  }
+  .responsavel {
+    gap: 14px;
+  }
+}

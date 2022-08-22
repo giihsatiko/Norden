@@ -1,0 +1,82 @@
+.botao-roxo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $roxo;
+  border-radius: 5px;
+  color: white;
+  max-height: 53px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+  &:hover {
+    color: white;
+  }
+}
+
+.botao-roxo-nobg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $roxo;
+  border-radius: 5px;
+  color: white;
+  max-height: 53px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+  &:hover {
+    color: white;
+  }
+}
+
+.setas-swiper {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 50%;
+  width: 100%;
+  div:first-of-type {
+    transform:
+     rotate(180deg);
+  }
+}
+
+.titulo-swipers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .texto {
+    width: 80%;
+    h2 {
+      color: $azul-escuro;
+      font-weight: 600;
+      font-size: 32px;
+      width: 55%;
+      padding-bottom: 30px;
+      line-height: 45px;
+      margin: 0;
+      span {
+        color: $roxo;
+        text-decoration: underline;
+      }
+    }
+    p {
+      color: $azul;
+      font-weight: 300;
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    white-space: nowrap;
+    align-self: flex-end;
+  }
+}

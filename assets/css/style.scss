@@ -1,0 +1,22 @@
+@import 'base/normalize';
+@import 'base/variaveis';
+@import 'base/tipografia';
+@import 'base/base';
+@import 'base/swiper';
+@import 'header';
+@import 'footer';
+@import 'banner';
+@import 'motivos';
+@import 'praticidade';
+@import 'relatos-blog';
+
+.video-container {
+  background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #B48C46 13.6%, #1E315B 95.72%);
+  padding: 140px 0;
+  .texto-video {
+    h2 {
+      width: 96%;
+      line-height: 45px;
+    }
+  }
+}

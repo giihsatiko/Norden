@@ -1,0 +1,32 @@
+main {
+  padding: 120px 0;
+}
+.swiper-container {
+  padding-top: 70px;
+  .motivos-slide {
+    height: 273px;
+    padding: 0 33px;
+    .img-swiper {
+      height: 84px;
+      width: 84px;
+    }
+    h3 {
+      padding: 18px 0 20px 0;
+      margin: 0;
+    }
+  }
+  .border-slide {
+    border-right: 2px solid #C1A37C;
+    border-left: 2px solid #C1A37C;;
+  }
+}
+
+.planos-container {
+  padding-top: 120px;
+  .planos-texto {
+    .botao-roxo {
+      width: 157px;
+      padding: 16px 32px;
+    }
+  }
+}

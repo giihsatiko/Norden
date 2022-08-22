@@ -1,0 +1,22 @@
+.banner {
+  background: linear-gradient(90deg, #1E315B 0%, #496DBF 100%);
+  .texto-banner {
+    h1 {
+      line-height: 45px;
+    }
+    p {
+      line-height: 26px;
+    }
+    .botoes {
+      gap: 30px;
+    }
+  }
+  .botoes {
+    .botao-roxo {
+      padding: 16px 71px;
+    }
+    .botao-roxo-nobg {
+      padding: 16px 32px;
+    }
+  }
+}
