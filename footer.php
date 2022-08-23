@@ -110,7 +110,7 @@
               </div>
             </form>
           </div>
-          <div class="col-lg-2 col-sm-4 col-12 d-flex flex-column flex-lg-row align-md-center align-items-start">
+          <div class="col-sm-4 col-12 d-flex flex-column align-items-start align-items-sm-center">
             <h4>SIGA O NORDEN</h4>
             <div class="redes d-flex align-items-center">
               <a href="#"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-4 col-12 fale-conosco">
+          <div class="col-lg-4 col-sm-4 col-12 fale-conosco">
             <h4>FALE CONOSCO</h4>
             <div class="d-flex align-items-center">
               <img src="assets/images/tel.png" alt="telefone">
@@ -154,7 +154,7 @@
             <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
           </div>
         </div>
-        <div class="col-lg-8 col-12 d-flex flex-md-row flex-column align-md-center align-items-start justify-content-between medicos-responsaveis">
+        <div class="col-lg-8 col-12 d-flex flex-md-row flex-column align-md-center align-items-start align-items-sm-center medicos-responsaveis">
           <div class="d-flex align-md-center align-items-start flex-md-row flex-column responsavel">
             <img src="assets/images/ans.png" alt="responsável">
             <p class="m-0 fw-300 fs-13 sans white">Responsável técnico Plano de Saúde:<br>
@@ -184,6 +184,15 @@
         ($(this).parent().find('.dropdown-footer').stop().slideToggle());
         $(this).find('.seta-footer').toggleClass('girar');
       }
+    });
+
+    $('.facilidades-button').on('click', function(){
+      $(this).parent().find('.facilidades-menu').stop().slideToggle();
+      $('.facilidades-button').toggleClass('mudar-cor');
+    });
+
+    $('.mega-menu-item').on('click', function(){
+      $(this).find('.dropdown-item-header').stop().slideToggle();
     });
   });
 </script>
