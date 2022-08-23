@@ -41,8 +41,7 @@
   top: 50%;
   width: 100%;
   div:first-of-type {
-    transform:
-     rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 
@@ -70,13 +69,25 @@
       font-weight: 300;
       font-size: 20px;
       margin: 0;
+      font-family: 'Public Sans', sans-serif;
     }
   }
   .link {
     display: flex;
-    align-items: center;
     gap: 11px;
     white-space: nowrap;
     align-self: flex-end;
+  }
+}
+
+.link-mobile {
+  display: none;
+  @media (max-width: 767.9px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    white-space: nowrap;
+    padding-top: 30px;
   }
 }

@@ -94,7 +94,7 @@
       </div>
       <div class="contato">
         <div class="row justify-content-between">
-          <div class="col-md-4 col-12 email">
+          <div class="col-sm-4 col-12 email">
             <img src="assets/images/nsaude.png" alt="logo nsaude">
             <p class="fw-300 fs-15 white">Assine a newsletter da nossa revista de longevidade e qualidade de vida:</p>
             <form>
@@ -110,7 +110,7 @@
               </div>
             </form>
           </div>
-          <div class="col-lg-2 col-md-4 col-12 d-flex flex-column flex-lg-row align-items-center">
+          <div class="col-lg-2 col-sm-4 col-12 d-flex flex-column flex-lg-row align-md-center align-items-start">
             <h4>SIGA O NORDEN</h4>
             <div class="redes d-flex align-items-center">
               <a href="#"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-4 col-12 fale-conosco">
+          <div class="col-lg-6 col-sm-4 col-12 fale-conosco">
             <h4>FALE CONOSCO</h4>
             <div class="d-flex align-items-center">
               <img src="assets/images/tel.png" alt="telefone">
@@ -154,17 +154,17 @@
             <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
           </div>
         </div>
-        <div class="col-lg-8 col-12 d-flex align-items-center justify-content-between medicos-responsaveis">
-          <div class="d-flex align-items-center responsavel">
+        <div class="col-lg-8 col-12 d-flex flex-md-row flex-column align-md-center align-items-start justify-content-between medicos-responsaveis">
+          <div class="d-flex align-md-center align-items-start flex-md-row flex-column responsavel">
             <img src="assets/images/ans.png" alt="responsável">
             <p class="m-0 fw-300 fs-13 sans white">Responsável técnico Plano de Saúde:<br>
               Dr. André Luís Gomes | CRM/SP 139.237</p>
           </div>
-          <div class="d-flex align-items-center justify-content-between hospital-responsavel">
+          <div class="d-flex align-md-center align-items-start justify-content-between hospital-responsavel">
             <p class="m-0 fw-300 fs-13 sans white">Responsável Norden Hospital:<br>
               Dr. Antonio C. Pinotti | CRM/SP 44.539
             </p>
-            <img src="assets/images/abramge.png" alt="logo abramge">
+            <img src="assets/images/abramge.png" alt="logo abramge" class="d-lg-block d-none">
           </div>
         </div>
       </div>
@@ -196,11 +196,12 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
       },
-      640: {
+      576: {
         slidesPerView: 2,
+        spaceBetween: 0,
       },
       768: {
         slidesPerView: 3,
@@ -226,13 +227,15 @@
       nextEl: ".relatos-button-next",
       prevEl: ".relatos-button-prev",
     },
+    centeredSlides: true,
     breakpoints: {
       320: {
-        slidesPerView: 2,
-        spaceBetween: 30,
+        slidesPerView: 1.2,
+        spaceBetween: 18,
       },
-      640: {
+      575: {
         slidesPerView: 2,
+        spaceBetween: 10,
       },
       768: {
         slidesPerView: 3,
@@ -260,8 +263,9 @@
     },
     breakpoints: {
       320: {
-        slidesPerView: 2,
-        spaceBetween: 30,
+        centeredSlides: true,
+        slidesPerView: 1.2,
+        spaceBetween: 20,
       },
       768: {
         slidesPerView: 2,

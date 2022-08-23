@@ -90,6 +90,12 @@
           <div class="motivos-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
         </div>
       </div>
+      <div class="link-mobile">
+        <a href="#" class="fw-600 fs-18 roxo">
+          Conheça a empresa
+          <img src="assets/images/seta-roxa.png" alt="seta">
+        </a>
+      </div>
     </div>
     <div class="planos-container">
       <div class="planos-titulo">
@@ -99,7 +105,7 @@
       <div class="tipos-planos">
         <div class="row">
           <div class="col-sm-6 col-12 d-flex flex-column justify-content-end align-items-center plano">
-            <img src="assets/images/plano.png" alt="médico aferindo criança no colo da mãe">
+            <img src="assets/images/plano.png" alt="médico aferindo criança no colo da mãe" class="img-fluid">
             <div class="planos-texto d-flex flex-column justify-content-end align-items-center pt-3">
               <h3 class="fw-600 fs-24 azul">Para Você e Sua Família</h3>
               <p class="fw-300 fs-20 azul-claro sans">Cuidamos das pessoas que você ama.</p>
@@ -107,7 +113,7 @@
             </div>
           </div>
           <div class="col-sm-6 col-12 d-flex flex-column justify-content-end align-items-center plano2">
-            <img src="assets/images/plano2.png" alt="médico aplicando injeção em mulher">
+            <img src="assets/images/plano2.png" alt="médico aplicando injeção em mulher" class="img-fluid">
             <div class="planos-texto d-flex flex-column justify-content-end align-items-center text-center text-lg-left pt-3">
               <h3 class="fw-600 fs-24 azul">Para você e sua empresa</h3>
               <p class="fw-300 fs-20 azul-claro sans">Cuidamos das pessoas importantes para o seu negócio.</p>
@@ -122,7 +128,7 @@
 <section class="praticidade-container">
   <div class="container-fluid">
     <div class="row  justify-content-center">
-      <div class="col-lg-5 col-md-10 col-12 text-center">
+      <div class="col-lg-5 col-md-10 col-12 text-center texto-praticidade">
         <h2 class="fw-600 fs-32 white pb-4">Mais prático,
           mais acessível.</h2>
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
@@ -250,6 +256,7 @@
           <div class="relatos-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
         </div>
       </div>
+
     </div>
     <div class="blog">
       <div class="titulo-swipers">
@@ -295,6 +302,12 @@
           <div class="blog-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
         </div>
       </div>
+      <div class="link-mobile">
+          <a href="#" class="fw-600 fs-18 roxo">
+            Ver mais depoimentos
+            <img src="assets/images/seta-roxa.png" alt="seta">
+          </a>
+        </div>
     </div>
   </div>
 </section>

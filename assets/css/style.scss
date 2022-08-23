@@ -34,3 +34,145 @@
   }
 
 }
+
+@media (max-width: 767.9px) {
+  
+  .titulo-swipers {
+    justify-content: center !important;
+    text-align: center;
+    .link {
+      display: none;
+    }
+    .texto {
+      width: 100% !important;
+      h2, p {
+        width: 100% !important;
+      }
+    }
+    
+}
+
+.video-container {
+  padding: 112px 20px;
+}
+
+}
+
+@media (max-width: 575.9px) {
+  .medicos-responsaveis {
+    .responsavel p {
+      padding: 0 0 15px 0 !important;
+  }
+  }
+  .email {
+    padding-bottom: 50px;
+  }
+  .redes {
+    padding-bottom: 50px;
+  }
+
+  .titulo-swipers {
+    h2 {
+      font-size: 30px !important;
+    }
+    p {
+      font-size: 14px !important;
+    }
+  }
+  .mySwiper-motivos {
+    .setas-swiper {
+      top: 45%;
+    }
+    .motivos-slide {
+      padding: 0 !important;
+    }
+  }
+
+
+  .plano2 {
+    padding-top: 76px;
+  }
+  .planos-texto {
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .texto-praticidade {
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+      padding-bottom: 45px;
+    }
+  }
+  .praticidade-item {
+    p {
+      font-size: 16px;
+    }
+    svg {
+      right: 14px;
+    }
+  }
+  
+  .video-container {
+    padding: 112px 0 !important;
+    .texto-video {
+      h2 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    iframe {
+      width: 289px;
+      height: 163px;
+    }
+  }
+
+  .mySwiper-relatos {
+    .relato {
+      padding: 20px !important;
+      p {
+        font-size: 14px;
+      }
+      .dados-relato {
+        .nome-tipo {
+          h4 {
+            text-align: left;
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .mySwiper-blog {
+    .setas-swiper {
+      top: 15%;
+    }
+
+    .link-blog {
+      .img-blog {
+        .data  {
+          left: 16px;
+        }
+      }
+      h3 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
