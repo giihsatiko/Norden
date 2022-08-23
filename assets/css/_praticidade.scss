@@ -2,14 +2,26 @@
   background: linear-gradient(90deg, #1e315b 0%, #496dbf 100%);
   padding: 139px 0;
 }
+.praticidade {
+  gap: 17px;
+}
 .praticidade-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #ececeb;
   border-radius: 100px;
-  padding: 31px 43px;
+  padding: 0 43px;
   gap: 43px;
   height: 86px;
   width: 350px;
   gap: 12px;
+  position: relative;
+  svg {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+  }
   p {
     margin: 0;
   }

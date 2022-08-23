@@ -8,7 +8,7 @@
             para todos os dias.<br>
             A vida inteira.</h1>
           <p class="fw-300 fs-20 white">O Norden é um <b class="fw-700">novo sistema de saúde</b> que diminui a distância entre você e o melhor cuidado. Simule o seu plano e comprove o porquê temos milhares de beneficiários satisfeitos.</p>
-          <div class="botoes d-flex justify-content-between align-items-center">
+          <div class="botoes d-flex flex-column flex-lg-row justify-content-between align-items-start">
             <a href="#" class="botao-roxo">
               Simule agora
             </a>
@@ -100,15 +100,15 @@
         <div class="row">
           <div class="col-sm-6 col-12 d-flex flex-column justify-content-end align-items-center plano">
             <img src="assets/images/plano.png" alt="médico aferindo criança no colo da mãe">
-            <div class="planos-texto d-flex flex-column justify-content-end align-items-center ">
+            <div class="planos-texto d-flex flex-column justify-content-end align-items-center pt-3">
               <h3 class="fw-600 fs-24 azul">Para Você e Sua Família</h3>
               <p class="fw-300 fs-20 azul-claro sans">Cuidamos das pessoas que você ama.</p>
               <a href="#" class="botao-roxo">Saiba mais</a>
             </div>
           </div>
-          <div class="col-sm-6 col-12 d-flex flex-column justify-content-end align-items-center plano">
+          <div class="col-sm-6 col-12 d-flex flex-column justify-content-end align-items-center plano2">
             <img src="assets/images/plano2.png" alt="médico aplicando injeção em mulher">
-            <div class="planos-texto d-flex flex-column justify-content-end align-items-center ">
+            <div class="planos-texto d-flex flex-column justify-content-end align-items-center text-center text-lg-left pt-3">
               <h3 class="fw-600 fs-24 azul">Para você e sua empresa</h3>
               <p class="fw-300 fs-20 azul-claro sans">Cuidamos das pessoas importantes para o seu negócio.</p>
               <a href="#" class="botao-roxo">Saiba mais</a>
@@ -120,17 +120,17 @@
   </div>
 </main>
 <section class="praticidade-container">
-  <div class="container-lg container-fluid">
-    <div class="row">
-      <div class="col-sm-5 col-12">
-        <h2 class="fw-600 fs-32 white">Mais prático,
+  <div class="container-fluid">
+    <div class="row  justify-content-center">
+      <div class="col-lg-5 col-md-10 col-12 text-center">
+        <h2 class="fw-600 fs-32 white pb-4">Mais prático,
           mais acessível.</h2>
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
       </div>
-      <div class="col-sm-7 col-12">
+      <div class="col-lg-7 col-12">
         <div class="praticidade d-flex justify-content-center align-items-center flex-wrap">
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Meu Norden App</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Meu Norden App</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -138,7 +138,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Agendamentos</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Agendamentos</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -146,7 +146,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">2ª Via de Boleto</p>
+            <p class="azul-escuro fw-500 fs-20 sans">2ª Via de Boleto</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -154,7 +154,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Rede Credenciada</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Rede Credenciada</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -162,7 +162,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Área do beneficiário</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Área do beneficiário</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -170,7 +170,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">SAC e Ouvidoria</p>
+            <p class="azul-escuro fw-500 fs-20 sans">SAC e Ouvidoria</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -178,7 +178,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Documentos</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Documentos</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -186,7 +186,7 @@
             </svg>
           </a>
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
-            <p class="azul-escuro fw-500 fs-20">Facilite seu atendimento</p>
+            <p class="azul-escuro fw-500 fs-20 sans">Facilite seu atendimento</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
               <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
@@ -199,16 +199,16 @@
   </div>
 </section>
 <section class="video-container">
-  <div class="container-lg container-fluid">
-    <div class="row align-items-center">
-      <div class="texto-video col-sm-4 col-12">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center">
+      <div class="texto-video col-lg-4 col-md-10 col-12 text-center text-lg-left">
         <h2 class="fw-600 fs-32 white">
           Um sistema de saúde para os novos tempos
         </h2>
         <p class="fw-300 fs-20 sans white">Cuidado de ponta a ponta e um olhar integral por meio de um atendimento de excelência. Assista ao vídeo e entenda porquê escolher Norden.
         </p>
       </div>
-      <div class="video col-sm-8 col-12">
+      <div class="video col-lg-8 col-12 d-flex justify-content-center">
         <iframe width="727" height="410" src="https://www.youtube.com/embed/49had6xOt08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
@@ -264,7 +264,7 @@
           </a>
         </div>
       </div>
-      <div class="swiper mySwiper-relatos">
+      <div class="swiper mySwiper-blog">
         <div class="swiper-wrapper">
           <?php for ($i = 0; $i < 6; $i++) : ?>
             <div class="swiper-slide">
@@ -291,8 +291,8 @@
           <?php endfor; ?>
         </div>
         <div class="setas-swiper d-flex d-sm-none">
-          <div class="relatos-button-prev"><img src="assets/images/seta-swiper.png" alt="seta"></div>
-          <div class="relatos-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
+          <div class="blog-button-prev"><img src="assets/images/seta-swiper.png" alt="seta"></div>
+          <div class="blog-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
         </div>
       </div>
     </div>

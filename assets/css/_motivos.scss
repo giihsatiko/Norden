@@ -30,3 +30,27 @@ main {
     }
   }
 }
+
+
+
+@media(max-width: 991.9px) {
+  .texto-video h2 {
+    width: 100% !important;
+  }
+  .planos-texto {
+    p {
+      height: 50px;
+    }
+  }
+  .plano img {
+    width: 343.42px;
+    height: 
+    287.87px;
+  }
+  .plano2 img {
+    width: 
+    300.75px;
+    height: 
+    320.17px;
+  }
+}

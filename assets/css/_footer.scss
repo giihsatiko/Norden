@@ -27,6 +27,17 @@ footer {
   h4 {
     padding-bottom: 15px;
   }
+  .redes {
+    gap: 27px;
+  }
+  .fale-conosco {
+    div:first-of-type {
+      gap: 7px;
+    }
+    div:nth-of-type(2) {
+      gap: 3px;
+    }
+  }
 }
 .responsaveis {
   padding: 41px 0;
@@ -36,5 +47,76 @@ footer {
   }
   .responsavel {
     gap: 14px;
+  }
+}
+form {
+  .email-form {
+    position: relative;
+    input {
+      height: 53px;
+      border: 2px solid 
+      rgba(119, 194, 215, 0.5);
+      border-radius: 100px;
+      background: none;
+    }
+    button {
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      background: none;
+      border: none;
+    }
+  }
+}
+
+@media(max-width: 991.9px) {
+  .dropdown-footer {
+    display: none;
+    padding: 28px 30px 39px;
+    a {
+      padding: 15px 0;
+    }
+  }
+  .dropdown-footer-button {
+    padding: 10px 30px;
+    gap: 18px;
+    h4 {
+      margin: 0;
+    }
+    // &:first-of-type {
+    //   border-top: 1px solid #77C2D7;
+    // }
+    border-top: 1px solid rgba(119, 194, 215, 0.15);
+    
+  }
+  .seta-footer {
+    transition: all 0.5s ease-in-out;
+    &.girar {
+      transform: rotate(180deg);
+      svg {
+        fill: $roxo;
+      }
+    }
+  }
+  .email p {
+    padding-top: 9.64px;
+  }
+  .fale-conosco {
+    div:first-of-type {
+      padding-bottom: 17.74px;
+    }
+  }
+  .oxigen {
+    padding-top: 33px;
+    justify-content: center;
+  }
+  .medicos-responsaveis {
+    order: -1;
+    .responsavel p {
+      padding: 0 59px 0 37px;
+    }
+    .hospital-responsavel p {
+      padding-right: 79px;
+    }
   }
 }
