@@ -19,6 +19,9 @@ footer {
     a {
       font-weight: 300;
       font-size: 15px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -29,6 +32,16 @@ footer {
   }
   .redes {
     gap: 27px;
+    a:hover {
+      svg {
+        path {
+          fill: $roxo-claro
+        }
+        rect {
+          stroke: $roxo-claro;
+        }
+      }
+    }
   }
   .fale-conosco {
     div:first-of-type {
@@ -58,6 +71,11 @@ form {
       rgba(119, 194, 215, 0.5);
       border-radius: 100px;
       background: none;
+      padding-left: 26px;
+      cursor: pointer;
+      &::placeholder {
+        color: white;
+      }
     }
     button {
       position: absolute;
@@ -65,6 +83,18 @@ form {
       right: 7px;
       background: none;
       border: none;
+    }
+    &:hover {
+      input {
+        border: 2px solid #77C2D7;
+      }
+      button {
+        svg {
+          circle {
+            fill: $roxo-claro;
+          }
+        }
+      }
     }
   }
 }

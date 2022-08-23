@@ -101,12 +101,12 @@
               <div class="email-form d-flex align-items-center">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu Email">
                 <button type="submit">
-                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
-                  <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
-                  <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
-                </svg>
-              </button>
+                  <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+                    <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+                    <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+                  </svg>
+                </button>
               </div>
             </form>
           </div>
@@ -227,11 +227,11 @@
       nextEl: ".relatos-button-next",
       prevEl: ".relatos-button-prev",
     },
-    centeredSlides: true,
     breakpoints: {
       320: {
         slidesPerView: 1.2,
         spaceBetween: 18,
+        centeredSlides: true,
       },
       575: {
         slidesPerView: 2,
@@ -250,7 +250,7 @@
         spaceBetween: 30,
       },
       1700: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 30,
       },
     },

@@ -49,5 +49,28 @@
         padding: 6px 20px;
       }
     }
+    &:hover {
+      img {
+        animation: crescer forwards 0.5s ease-in-out;
+      }
+      h3, p {
+        color: $azul-claro;
+      }
+      span:not(.data) {
+        color: $roxo-claro;
+        text-decoration: underline;
+        svg {
+          path {
+            stroke: $roxo-claro;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes crescer {
+  to {
+    transform: scale(1.2);
   }
 }

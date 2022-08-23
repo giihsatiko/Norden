@@ -12,6 +12,7 @@
   white-space: nowrap;
   &:hover {
     color: white;
+    background-color: $roxo-claro;
   }
 }
 
@@ -29,6 +30,7 @@
   white-space: nowrap;
   &:hover {
     color: white;
+    border: 2px solid $roxo-claro;
   }
 }
 
@@ -42,6 +44,13 @@
   width: 100%;
   div:first-of-type {
     transform: rotate(180deg);
+  }
+  &:hover {
+    svg {
+      path {
+        stroke: $roxo-claro;
+      }
+    }
   }
 }
 
@@ -59,7 +68,7 @@
       padding-bottom: 30px;
       line-height: 45px;
       margin: 0;
-      span {
+      a {
         color: $roxo;
         text-decoration: underline;
       }
@@ -69,7 +78,12 @@
       font-weight: 300;
       font-size: 20px;
       margin: 0;
-      font-family: 'Public Sans', sans-serif;
+      font-family: "Public Sans", sans-serif;
+    }
+    &:hover {
+      a {
+        color: $roxo-claro;
+      }
     }
   }
   .link {
@@ -77,6 +91,17 @@
     gap: 11px;
     white-space: nowrap;
     align-self: flex-end;
+    &:hover {
+      a {
+        color: $roxo-claro;
+        text-decoration: underline;
+        svg {
+          circle {
+            fill: $roxo-claro;
+          }
+        }
+      }
+    }
   }
 }
 

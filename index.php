@@ -34,7 +34,12 @@
       <div class="link">
         <a href="#" class="fw-600 fs-18 roxo">
           Conheça a empresa
-          <img src="assets/images/seta-roxa.png" alt="seta">
+          <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+            <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+            <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+          </svg>
+
         </a>
       </div>
     </div>
@@ -86,14 +91,27 @@
           </div>
         </div>
         <div class="setas-swiper">
-          <div class="motivos-button-prev"><img src="assets/images/seta-swiper.png" alt="seta"></div>
-          <div class="motivos-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
+          <div class="motivos-button-prev">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
+          <div class="motivos-button-next">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
         </div>
       </div>
       <div class="link-mobile">
         <a href="#" class="fw-600 fs-18 roxo">
           Conheça a empresa
-          <img src="assets/images/seta-roxa.png" alt="seta">
+          <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+            <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+            <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+          </svg>
+
         </a>
       </div>
     </div>
@@ -230,7 +248,12 @@
         <div class="link">
           <a href="#" class="fw-600 fs-18 roxo">
             Ver mais depoimentos
-            <img src="assets/images/seta-roxa.png" alt="seta">
+            <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+              <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+              <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+            </svg>
+
           </a>
         </div>
       </div>
@@ -252,8 +275,16 @@
           <?php endfor; ?>
         </div>
         <div class="setas-swiper">
-          <div class="relatos-button-prev"><img src="assets/images/seta-swiper.png" alt="seta"></div>
-          <div class="relatos-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
+          <div class="relatos-button-prev">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
+          <div class="relatos-button-next">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
         </div>
       </div>
 
@@ -261,13 +292,18 @@
     <div class="blog">
       <div class="titulo-swipers">
         <div class="texto">
-          <h2>Fique por dentro do <span>NSaúde.</span></h2>
+          <h2>Fique por dentro do <a href="#">NSaúde.</a></h2>
           <p>Acesse o nosso blog e confira o melhor conteúdo sobre longevidade, prevenção, cuidados, dicas sobre o seu plano e qualidade de vida.</p>
         </div>
         <div class="link">
           <a href="#" class="fw-600 fs-18 roxo">
             Ir para o NSaúde
-            <img src="assets/images/seta-roxa.png" alt="seta">
+            <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+              <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+              <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+            </svg>
+
           </a>
         </div>
       </div>
@@ -276,7 +312,7 @@
           <?php for ($i = 0; $i < 6; $i++) : ?>
             <div class="swiper-slide">
               <a href="#" class="d-block w-100 link-blog">
-                <div class="img-blog">
+                <div class="img-blog overflow-hidden">
                   <img src="assets/images/medica-examinando.png" alt="médica examinando paciente">
                   <span class="data fw-500 fs-16">
                     20 ABR 2022
@@ -298,16 +334,29 @@
           <?php endfor; ?>
         </div>
         <div class="setas-swiper d-flex d-sm-none">
-          <div class="blog-button-prev"><img src="assets/images/seta-swiper.png" alt="seta"></div>
-          <div class="blog-button-next"><img src="assets/images/seta-swiper.png" alt="seta"></div>
+          <div class="blog-button-prev">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
+          <div class="blog-button-next">
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 22L12 12L2 2" stroke="#C05A94" stroke-width="3" />
+            </svg>
+          </div>
         </div>
       </div>
       <div class="link-mobile">
-          <a href="#" class="fw-600 fs-18 roxo">
-            Ver mais depoimentos
-            <img src="assets/images/seta-roxa.png" alt="seta">
-          </a>
-        </div>
+        <a href="#" class="fw-600 fs-18 roxo">
+          Ver mais depoimentos
+          <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19.5" cy="19.5" r="19.5" fill="#C05A94" />
+            <path d="M22 26.0001L28 20.0001L22 14.0001" stroke="white" stroke-width="2" />
+            <path d="M11 20.0001L27 20.0001" stroke="white" stroke-width="2" />
+          </svg>
+
+        </a>
+      </div>
     </div>
   </div>
 </section>
