@@ -186,12 +186,28 @@
       }
     });
 
-    $('.facilidades-button').on('click', function(){
+    $('.facilidades-button').on('click', function() {
       $(this).parent().find('.facilidades-menu').stop().slideToggle();
       $('.facilidades-button').toggleClass('mudar-cor');
     });
 
-    $('.mega-menu-item').on('click', function(){
+    $('.menu').on('click', function() {
+      $('.burgir').toggleClass('aberto');
+      $('body').toggleClass('overflow-hidden');
+      if(window.innerWidth < 575) {
+        $(this).parents('header').find('.menu-mobile').slideToggle();
+      }
+      if (window.innerWidth > 575) {
+        $(this).parent().find('.menu-fechado').toggleClass('menu-aberto');
+      }
+    });
+
+    $('.dropdown-mobile-button').on('click',function(event){
+      event.stopPropagation();
+      $(this).parent().find('.dropdown-mobile-links').slideToggle();
+    });
+
+    $('.mega-menu-item').on('click', function() {
       $(this).find('.dropdown-item-header').stop().slideToggle();
     });
   });

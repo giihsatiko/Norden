@@ -2,11 +2,14 @@
   background: linear-gradient(90deg, #1E315B 0%, #496DBF 100%);
   min-height: 584px;
   .texto-banner {
+    gap: 28px;
     h1 {
       line-height: 45px;
+      width: 72%;
     }
     p {
       line-height: 26px;
+      margin: 0;
     }
     .botoes {
       gap: 30px;

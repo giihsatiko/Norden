@@ -10,6 +10,7 @@
 @import "praticidade";
 @import "relatos-blog";
 
+
 .video-container {
   background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
   padding: 140px 0;
@@ -22,6 +23,11 @@
 }
 
 @media (max-width: 991.9px) {
+  .texto-banner {
+    h1 {
+      width: 85% !important;
+    }
+  }
   .titulo-swipers {
     .texto {
       h2 {
@@ -36,7 +42,10 @@
 }
 
 @media (max-width: 767.9px) {
-  
+  .texto-banner {
+    text-align: center;
+    width: 100% !important;
+  }
   .titulo-swipers {
     justify-content: center !important;
     text-align: center;
@@ -59,6 +68,20 @@
 }
 
 @media (max-width: 575.9px) {
+  nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .botoes {
+    width: 100%;
+    .botao-roxo, .botao-roxo-nobg {
+      width: 100% !important;
+    }
+  }
   .medicos-responsaveis {
     .responsavel p {
       padding: 0 0 15px 0 !important;

@@ -1,14 +1,14 @@
 <?php include "header.php"; ?>
-<section class="banner">
+<section class="banner d-flex align-items-end">
   <div class="container-lg container-fluid">
     <div class="row align-items-center">
-      <div class="col-sm-7 col-12">
-        <div class="texto-banner">
+      <div class="col-md-7 col-12">
+        <div class="texto-banner d-flex flex-column align-items-start">
           <h1 class="fw-600 fs-40 white">O seu plano de saúde
             para todos os dias.<br>
             A vida inteira.</h1>
           <p class="fw-300 fs-20 white">O Norden é um <b class="fw-700">novo sistema de saúde</b> que diminui a distância entre você e o melhor cuidado. Simule o seu plano e comprove o porquê temos milhares de beneficiários satisfeitos.</p>
-          <div class="botoes d-flex flex-column flex-lg-row justify-content-between align-items-start">
+          <div class="botoes d-flex flex-column flex-sm-row flex-md-column flex-xl-row justify-content-start align-items-start">
             <a href="#" class="botao-roxo">
               Simule agora
             </a>
@@ -18,7 +18,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-5 col-12">
+      <div class="col-md-5 col-12">
         <img src="assets/images/medica.png" alt="medica" class="img-fluid">
       </div>
     </div>
