@@ -191,24 +191,38 @@
       $('.facilidades-button').toggleClass('mudar-cor');
     });
 
+    // $('.menu').on('click', function() {
+    //   $('.burgir').toggleClass('aberto');
+    //   $('body').toggleClass('overflow-hidden');
+    //   if(window.innerWidth < 575) {
+    //     $(this).parents('header').find('.menu-mobile').slideToggle();
+    //   }
+    //   if (window.innerWidth > 575) {
+    //     $(this).parent().find('.menu-fechado').toggleClass('menu-aberto');
+    //   }
+    // });
+
+    // $('.dropdown-mobile-button').on('click',function(event){
+    //   event.stopPropagation();
+    //   $(this).parent().find('.dropdown-mobile-links').slideToggle();
+    // });
+
+    // $('.mega-menu-item').on('click', function() {
+    //   $(this).find('.dropdown-item-header').stop().slideToggle();
+    // });
+
+    $('.dropdown-nav-mobile').on('click', function() {
+      if(window.innerWidth < 992) {
+        $(this).find('.links-dropdown-mobile').slideToggle();
+        $(this).toggleClass('link-ativo');
+      }
+    });
     $('.menu').on('click', function() {
       $('.burgir').toggleClass('aberto');
       $('body').toggleClass('overflow-hidden');
-      if(window.innerWidth < 575) {
-        $(this).parents('header').find('.menu-mobile').slideToggle();
+      if (window.innerWidth < 992) {
+        $('.links-nav-mobile').slideToggle();
       }
-      if (window.innerWidth > 575) {
-        $(this).parent().find('.menu-fechado').toggleClass('menu-aberto');
-      }
-    });
-
-    $('.dropdown-mobile-button').on('click',function(event){
-      event.stopPropagation();
-      $(this).parent().find('.dropdown-mobile-links').slideToggle();
-    });
-
-    $('.mega-menu-item').on('click', function() {
-      $(this).find('.dropdown-item-header').stop().slideToggle();
     });
   });
 </script>
@@ -241,7 +255,7 @@
         spaceBetween: 0,
       },
       1700: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 30,
       },
     },
