@@ -29,7 +29,7 @@
             <a class="d-flex align-items-center">Hospital <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
             <div class="links-dropdown">
               <div class="row">
-                <div class="col-12 col-lg-3 itens-dropdown">
+                <div class="col-12 col-lg-3 tema-dropdown">
                   <h3>Facilidades</h3>
                   <div class="itens-sub">
                     <p>Agilidade e transparência na comunicação, onde você estiver, como quiser</p>
@@ -62,11 +62,6 @@
                     <a href="#" class="d-block">Proteção as aplicações em nuvem</a>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="outros">
-              <div class="lupa">
-
               </div>
             </div>
           </div>
@@ -142,11 +137,48 @@
           </div>
         </div>
         <div class="outros d-flex justify-content-end align-items-center w-100">
-          <div class="facilidades-button d-flex align-items-center">
-            <p class="m-0 fw-600 fs-16 white">Facilidades</p>
-            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 1L6 6L11 1" stroke="white" stroke-width="2" />
-            </svg>
+          <div class="facilidades">
+            <div class="facilidades-button d-flex align-items-center">
+              <p class="m-0 fw-600 fs-16 white">Facilidades</p>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L6 6L11 1" stroke="white" stroke-width="2" />
+              </svg>
+            </div>
+            <div class="facilidades-dropdown">
+              <div class="row">
+                <div class="col-12 col-lg-3 tema-dropdown">
+                  <h3>Facilidades</h3>
+                  <p>Agilidade e transparência na comunicação, onde você estiver, como quiser</p>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>USAR</h5>
+                  <div>
+                    <a href="#" class="d-block">Diagnóstico e recomendação</a>
+                    <a href="#" class="d-block">Planos de ação para implantação</a>
+                    <a href="#" class="d-block">Implantação de planos de ação</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONHECER</h5>
+                  <div class="itens-sub">
+                    <a href="#" class="d-block">Conscientização de usuários</a>
+                    <a href="#" class="d-block">Mapeamento de dados</a>
+                    <a href="#" class="d-block">Gestão de acessos</a>
+                    <a href="#" class="d-block">Automatização de políticas</a>
+                    <a href="#" class="d-block">Definição de workflow</a>
+                    <a href="#" class="d-block">Prevenção de vazamento de dados</a>
+                    <a href="#" class="d-block">Automação e avaliação LGPD</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>INTERAGIR</h5>
+                  <div>
+                    <a href="#" class="d-block">Gerenciamento do risco de aplicativos</a>
+                    <a href="#" class="d-block">Proteção as aplicações em nuvem</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div><img src="assets/images/lupa.png" alt="lupa"></div>
           <div class="menu d-flex align-items-center">

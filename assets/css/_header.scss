@@ -17,7 +17,7 @@ header {
       align-items: center;
       & > a {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 16px;
         padding: 25px 30px;
         border-bottom: 4px solid transparent;
         white-space: nowrap;
@@ -26,40 +26,58 @@ header {
           border-bottom: 3px solid $roxo;
         }
       }
-      .links-dropdown {
-        display: none;
-        min-height: 441px;
-        position: absolute;
-        background: linear-gradient(90deg, rgba(30, 49, 91, 0.95) 0%, rgba(73, 109, 191, 0.95) 100%);
-        backdrop-filter: blur(5px);
-        left: 0;
-        top: 78px;
-        width: 100%;
-        padding: 0 40px;
-        .itens-dropdown {
-          padding-top: 90px;
-          padding-bottom: 15px;
-          color: white;
-          h5 {
-            font-weight: 600;
-            font-size: 13px;
-            color: $dourado;
-          }
-        }
-        a {
-          padding: 15px 0;
-          font-size: 17;
-          font-weight: 300;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
       &:hover {
         .links-dropdown {
           display: block;
         }
       }
+    }
+  }
+  .links-dropdown, .facilidades-dropdown {
+    display: none;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(30, 49, 91, 0.95) 0%, rgba(73, 109, 191, 0.95) 100%);
+    backdrop-filter: blur(5px);
+    left: 0;
+    top: 78px;
+    width: 100%;
+    padding: 0 40px;
+    a {
+      padding: 15px 0;
+      font-size: 17;
+      font-weight: 300;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .tema-dropdown, .itens-dropdown {
+    padding-top: 90px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  .tema-dropdown {
+    color: white;
+    h3 {
+      font-weight: 600;
+      font-size: 28px;
+    }
+    p {
+      font-family: 'Public Sans', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .itens-dropdown {
+    h5 {
+      font-weight: 600;
+      font-size: 13px;
+      color: $dourado;
+    }
+    a {
+      font-weight: 400;
+      font-size: 17px;
     }
   }
   .outros {
@@ -84,6 +102,7 @@ header {
       }
     }
   }
+
   .menu {
     .burgir {
       cursor: pointer;
@@ -232,69 +251,7 @@ header {
   }
 }
 
-// header {
 
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   z-index: 10;
-// }
-// // html {
-// //   overflow-x: hidden;
-// // }
-
-// .nav {
-//   padding: 0 15px;
-// }
-// .logo {
-//   img {
-//     height: 22.19px;
-//   }
-// }
-
-// .dropdown-item-nav {
-//   padding-left: 53px;
-//   a {
-//     display: block;
-//     font-weight: 600;
-//     font-size: 16px;
-//     padding: 30px 15px;
-//   }
-// }
-
-// // .mega-menu-item {
-// //   & > a {
-// //     padding: 25px 30px;
-// //     border-bottom: 3px solid transparent;
-// //     &:hover {
-// //       border-bottom: 3px solid $roxo;
-// //     }
-// //   }
-// // }
-
-// // .links-facilidades,
-// // .links-dropdown-header {
-// //   a {
-// //     display: block;
-// //     padding: 15px 0;
-// //     &:hover {
-// //       text-decoration: underline;
-// //     }
-// //   }
-// // }
-// // .facilidades-menu,
-// // .dropdown-item-header {
-// //   display: none;
-// //   background: linear-gradient(90deg, rgba(30, 49, 91, 0.95) 0%, rgba(73, 109, 191, 0.95) 100%);
-// //   box-shadow: 0px 44px 50px rgba(0, 0, 0, 0.25);
-// //   backdrop-filter: blur(20px);
-// //   position: absolute;
-// //   width: 100%;
-// //   left: 0;
-// //   top: 100px;
-// //   padding: 51px 30px 100px;
-// // }
 
 // .lupa {
 //   img {

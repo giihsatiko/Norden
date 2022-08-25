@@ -187,7 +187,7 @@
     });
 
     $('.facilidades-button').on('click', function() {
-      $(this).parent().find('.facilidades-menu').stop().slideToggle();
+      $(this).parent().find('.facilidades-dropdown').stop().slideToggle();
       $('.facilidades-button').toggleClass('mudar-cor');
     });
 
