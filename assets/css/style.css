@@ -236,6 +236,10 @@ header {
   background: linear-gradient(90deg, rgba(30, 49, 91, 0.95) 0%, rgba(73, 109, 191, 0.95) 100%);
   height: 79px;
   z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 header .logo img {
   height: 22.19px;
@@ -463,10 +467,8 @@ header .links-nav-mobile {
   }
 
   header {
-    position: fixed;
-    left: 0;
+    top: unset;
     bottom: 0;
-    width: 100%;
   }
   header .logo {
     margin: 0 !important;
@@ -615,6 +617,8 @@ form .email-form:hover button svg circle {
   background-image: url(assets/images/background.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
+  background-size: cover;
+  margin-top: 79px;
   min-height: 584px;
 }
 .banner .texto-banner {
@@ -837,6 +841,10 @@ main {
 
   .texto-banner {
     text-align: center;
+    padding-top: 70px;
+    width: 100% !important;
+  }
+  .texto-banner h1 {
     width: 100% !important;
   }
 
@@ -859,6 +867,13 @@ main {
   }
 }
 @media (max-width: 575.9px) {
+  .banner {
+    margin-top: 0 !important;
+    background-image: url(assets/images/background-xs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   footer {
     padding: 0;
   }

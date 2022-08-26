@@ -53,7 +53,11 @@
   }
   .texto-banner {
     text-align: center;
+    padding-top: 70px;
     width: 100% !important;
+    h1 {
+      width: 100% !important;
+    }
   }
   .titulo-swipers {
     justify-content: center !important;
@@ -77,6 +81,12 @@
 }
 
 @media (max-width: 575.9px) {
+  .banner {
+    margin-top: 0 !important;
+    background-image: url(assets/images/background-xs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   footer {
     padding: 0;
   }

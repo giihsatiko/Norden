@@ -18,7 +18,7 @@
 
 <body>
   <header class="d-flex align-items-center" id="topo">
-    <div class="container-fluid">
+    <div class="container-fluid-sm w-100">
       <div class="itens-nav d-flex justify-content-between align-items-center">
         <a href="index.php" class="logo d-none d-sm-block"><img src="assets/images/logo.png" alt="logo"></a>
         <div class="links-nav fw-500 fs-18 d-none d-lg-flex">
@@ -136,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="outros d-flex justify-content-end align-items-center w-100">
+        <div class="outros d-flex justify-content-center justify-sm-end align-items-center w-100">
           <div class="facilidades">
             <div class="facilidades-button d-flex align-items-center">
               <p class="m-0 fw-600 fs-16 white">Facilidades</p>
