@@ -1,25 +1,20 @@
 <?php include "header.php"; ?>
-<section class="banner d-flex align-items-end">
+<section class="banner d-flex align-items-center">
   <div class="container-lg container-fluid">
     <div class="row align-items-center">
-      <div class="col-md-7 col-12">
-        <div class="texto-banner d-flex flex-column align-items-start">
-          <h1 class="fw-600 fs-40 white">O seu plano de saúde
-            para todos os dias.<br>
-            A vida inteira.</h1>
-          <p class="fw-300 fs-20 white">O Norden é um <b class="fw-700">novo sistema de saúde</b> que diminui a distância entre você e o melhor cuidado. Simule o seu plano e comprove o porquê temos milhares de beneficiários satisfeitos.</p>
-          <div class="botoes d-flex flex-column flex-sm-row flex-md-column flex-xl-row justify-content-start align-items-start">
-            <a href="#" class="botao-roxo">
-              Simule agora
-            </a>
-            <a href="#" class="botao-roxo-nobg">
-              Acesse seu Norden
-            </a>
-          </div>
+      <div class="texto-banner col-12 col-sm-7 d-flex flex-column align-items-start">
+        <h1 class="fw-600 fs-40 white">O seu plano de saúde
+          para todos os dias.<br>
+          A vida inteira.</h1>
+        <p class="fw-300 fs-20 white sans">O Norden é um <b class="fw-700">novo sistema de saúde</b> que diminui a distância entre você e o melhor cuidado. Simule o seu plano e comprove o porquê temos milhares de beneficiários satisfeitos.</p>
+        <div class="botoes d-flex flex-column flex-sm-row flex-md-column flex-xl-row justify-content-start align-items-start">
+          <a href="#" class="botao-roxo">
+            Simule agora
+          </a>
+          <a href="#" class="botao-roxo-nobg">
+            Acesse seu Norden
+          </a>
         </div>
-      </div>
-      <div class="col-md-5 col-12">
-        <img src="assets/images/medica.png" alt="medica" class="img-fluid">
       </div>
     </div>
   </div>
@@ -146,12 +141,12 @@
 <section class="praticidade-container">
   <div class="container-lg container-fluid">
     <div class="row justify-content-center">
-      <div class="col-lg-5 col-12 text-center text-lg-start texto-praticidade">
+      <div class="col-lg-4 col-12 text-center text-lg-start texto-praticidade">
         <h2 class="fw-600 fs-32 white pb-4">Mais prático,
           mais acessível.</h2>
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
       </div>
-      <div class="col-lg-7 col-12">
+      <div class="col-lg-8 col-12">
         <div class="praticidade d-flex justify-content-center align-items-center flex-wrap">
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
             <p class="azul-escuro fw-500 fs-20 sans">Meu Norden App</p>

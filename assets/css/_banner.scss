@@ -1,5 +1,7 @@
 .banner {
-  background: linear-gradient(90deg, #1E315B 0%, #496DBF 100%);
+  background-image: url(assets/images/background.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
   min-height: 584px;
   .texto-banner {
     gap: 28px;
