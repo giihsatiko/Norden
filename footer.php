@@ -148,8 +148,9 @@
     </div>
     <div class="responsaveis">
       <div class="row">
-        <div class="col-lg-4 col-12 d-flex align-items-center justify-content-center justify-md-start justify-lg-start oxigen">
+        <div class="col-lg-4 col-12 d-flex flex-sm-row flex-column align-items-start align-items-sm-center justify-content-between justify-content-md-center justify-content-lg-start oxigen">
           <p class="m-0 fw-300 fs-13 sans white">© 2022 Personal Care Operadora de Saúde S/A. Criação: <img src="assets/images/oxigenweb.png" alt="logo oxigenweb"></p>
+          <img src="assets/images/abramge.png" alt="logo abramge" class="d-md-none d-block logo-abramge-mobile">
         </div>
         <div class="col-lg-8 col-12 d-flex justify-content-between flex-sm-row flex-column align-md-center align-items-start align-items-sm-center medicos-responsaveis">
           <img src="assets/images/ans.png" alt="responsável">

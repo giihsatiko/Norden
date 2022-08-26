@@ -158,28 +158,12 @@
                 </div>
                 <div class="itens-dropdown-mobile">
                   <div class="sub-dropdown">
-                    <h5>CONHECER</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
                     <h5>CONTRATAR</h5>
                     <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
+                      <a href="#">Para sua Família</a>
+                      <a href="#">Para sua Empresa</a>
+                      <a href="#">Perguntas Frequentes</a>
+                      <a href="#">Rede Credenciada</a>
                     </div>
                   </div>
                 </div>
@@ -203,26 +187,10 @@
                   <div class="sub-dropdown">
                     <h5>CONHECER</h5>
                     <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
+                      <a href="#">Para sua Família</a>
+                      <a href="#">Para sua Empresa</a>
+                      <a href="#">Perguntas Frequentes</a>
+                      <a href="#">Rede Credenciada</a>
                     </div>
                   </div>
                 </div>
@@ -246,26 +214,10 @@
                   <div class="sub-dropdown">
                     <h5>CONHECER</h5>
                     <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
+                      <a href="#">Para sua Família</a>
+                      <a href="#">Para sua Empresa</a>
+                      <a href="#">Perguntas Frequentes</a>
+                      <a href="#">Rede Credenciada</a>
                     </div>
                   </div>
                 </div>
@@ -289,26 +241,10 @@
                   <div class="sub-dropdown">
                     <h5>CONHECER</h5>
                     <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="itens-dropdown-mobile">
-                  <div class="sub-dropdown">
-                    <h5>CONTRATAR</h5>
-                    <div class="links">
-                      <a href="#">Simule seu Plano</a>
-                      <a href="#">Comparar Planos</a>
+                      <a href="#">Para sua Família</a>
+                      <a href="#">Para sua Empresa</a>
+                      <a href="#">Perguntas Frequentes</a>
+                      <a href="#">Rede Credenciada</a>
                     </div>
                   </div>
                 </div>

@@ -22,7 +22,9 @@ main, .relatos-blog {
 }
 
 .video-container {
-  background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
+  background-image: url(assets/images/praticidade-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 140px 0;
   .texto-video {
     h2 {
@@ -33,6 +35,12 @@ main, .relatos-blog {
   }
 }
 
+
+@media (min-width:1400.9px) {
+  .banner {
+    background-position-y: center !important;
+  }
+}
 @media (max-width: 991.9px) {
   .banner {
     background-image: url(assets/images/background-md.png);
@@ -121,7 +129,10 @@ main, .relatos-blog {
     }
   }
   footer {
-    padding-bottom: 50px !important;
+    padding-bottom: 80px !important;
+    .logo-abramge-mobile {
+      order: -1;
+    }
   }
   nav {
     position: fixed;

@@ -383,7 +383,7 @@ header .menu-fechado {
   background: rgba(27, 48, 87, 0.96);
   box-shadow: 0px 44px 50px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
-  transform: translateX(100%);
+  transform: translateX(110%);
   transition: all 0.3s ease-in-out;
 }
 header .menu-fechado .links {
@@ -831,7 +831,9 @@ main, .relatos-blog {
 }
 
 .video-container {
-  background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
+  background-image: url(assets/images/praticidade-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 140px 0;
 }
 .video-container .texto-video h2 {
@@ -840,6 +842,11 @@ main, .relatos-blog {
   padding-bottom: 30px;
 }
 
+@media (min-width: 1400.9px) {
+  .banner {
+    background-position-y: center !important;
+  }
+}
 @media (max-width: 991.9px) {
   .banner {
     background-image: url(assets/images/background-md.png);
@@ -925,7 +932,10 @@ main, .relatos-blog {
   }
 
   footer {
-    padding-bottom: 50px !important;
+    padding-bottom: 80px !important;
+  }
+  footer .logo-abramge-mobile {
+    order: -1;
   }
 
   nav {
