@@ -136,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="outros d-flex justify-content-center justify-sm-end align-items-center w-100">
+        <div class="outros d-flex justify-content-center justify-content-sm-end align-items-center w-100">
           <div class="facilidades">
             <div class="facilidades-button d-flex align-items-center">
               <p class="m-0 fw-600 fs-16 white">Facilidades</p>

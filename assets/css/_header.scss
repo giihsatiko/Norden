@@ -184,8 +184,8 @@ header {
       .dropdown-nav-mobile {
         border: 2px solid transparent;
         transition: all 0.5s ease-in-out;
-        margin: 18px 15px;
         &.link-ativo {
+          margin: 18px 15px;
           background: rgba(27, 48, 87, 0.3);
           border-radius: 20px;
         }
@@ -218,15 +218,13 @@ header {
         }
       }
       .parte-2 {
-        padding: 0 15px;
         background: rgba(27, 48, 87, 0.96);
         box-shadow: 0px 44px 50px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(10px);
         height: 100%;
         .links-2 {
-          padding: 15px 20px;
           a {
-            padding: 10px 0;
+            padding: 10px 20px;
             border-bottom: 1px solid rgba(119, 194, 215, 0.15);
           }
         }

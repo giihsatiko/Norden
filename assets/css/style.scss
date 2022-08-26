@@ -10,7 +10,6 @@
 @import "praticidade";
 @import "relatos-blog";
 
-
 .video-container {
   background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
   padding: 140px 0;
@@ -42,10 +41,15 @@
       }
     }
   }
-
 }
 
 @media (max-width: 767.9px) {
+  .container-fluid-sm {
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
   .banner {
     background-image: url(assets/images/background-sm.png);
     background-repeat: no-repeat;
@@ -67,28 +71,39 @@
     }
     .texto {
       width: 100% !important;
-      h2, p {
+      h2,
+      p {
         width: 100% !important;
       }
     }
-    
-}
+  }
 
-.video-container {
-  padding: 112px 20px;
-}
-
+  .video-container {
+    padding: 112px 20px;
+  }
 }
 
 @media (max-width: 575.9px) {
+  .container-fluid-sm {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   .banner {
     margin-top: 0 !important;
     background-image: url(assets/images/background-xs.png);
     background-repeat: no-repeat;
     background-position: center;
+    .logo-sm {
+      width: 161px;
+      height: 22.19px;
+    }
+    .texto-banner {
+      padding-top: 40px !important;
+    }
   }
   footer {
     padding: 0;
+    padding-bottom: 50px;
   }
   nav {
     position: fixed;
@@ -100,14 +115,13 @@
 
   .botoes {
     width: 100%;
-    .botao-roxo, .botao-roxo-nobg {
+    .botao-roxo,
+    .botao-roxo-nobg {
       width: 100% !important;
     }
   }
   .medicos-responsaveis {
-    .responsavel p {
-      padding: 0 0 15px 0 !important;
-  }
+    gap: 15px;
   }
   .email {
     padding-bottom: 50px;
@@ -132,7 +146,6 @@
       padding: 0 !important;
     }
   }
-
 
   .plano2 {
     padding-top: 76px;
@@ -163,7 +176,7 @@
       right: 14px;
     }
   }
-  
+
   .video-container {
     padding: 112px 0 !important;
     .texto-video {
@@ -208,7 +221,7 @@
 
     .link-blog {
       .img-blog {
-        .data  {
+        .data {
           left: 16px;
         }
       }

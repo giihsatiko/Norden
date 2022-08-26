@@ -3,6 +3,7 @@
   <div class="container-sm container-fluid">
     <div class="row align-items-center">
       <div class="texto-banner col-12 col-lg-7 col-md-6 col-sm-7 d-flex flex-column align-items-start">
+        <img src="assets/images/logo.png" alt="logo" class="d-block d-sm-none logo-sm mx-auto">
         <h1 class="fw-600 fs-40 white">O seu plano de saúde
           para todos os dias.<br>
           A vida inteira.</h1>
