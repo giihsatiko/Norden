@@ -189,6 +189,13 @@
             </div>
           </div>
         </div>
+        <div class="menu-fechado">
+          <div class="links">
+            <a href="#" class="fw-500 fs-18 white d-block">Rede credenciada</a>
+            <a href="#" class="fw-500 fs-18 white d-block">Agendamentos</a>
+            <a href="#" class="fw-500 fs-18 white d-block">2ª Via de Boleto</a>
+            <a href="#" class="fw-500 fs-18 white d-block">Área do Beneficiário</a>
+          </div>
+        </div>
       </div>
-    </div>
   </header>

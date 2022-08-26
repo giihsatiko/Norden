@@ -191,7 +191,7 @@
     //     $(this).parents('header').find('.menu-mobile').slideToggle();
     //   }
     //   if (window.innerWidth > 575) {
-    //     $(this).parent().find('.menu-fechado').toggleClass('menu-aberto');
+        // $(this).parent().find('.menu-fechado').toggleClass('menu-aberto');
     //   }
     // });
 
@@ -213,6 +213,9 @@
     $('.menu').on('click', function() {
       $('.burgir').toggleClass('aberto');
       $('body').toggleClass('overflow-hidden');
+      if(window.innerWidth > 992) {
+        $(this).parents('.itens-nav').find('.menu-fechado').toggleClass('menu-aberto');
+      }
       if (window.innerWidth < 992) {
         $('.links-nav-mobile').slideToggle();
       }

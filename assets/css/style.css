@@ -12,6 +12,10 @@
   color: white;
 }
 
+body {
+  background: linear-gradient(90deg, rgba(30, 49, 91, 0.95) 0%, rgba(73, 109, 191, 0.95) 100%);
+}
+
 .sans {
   font-family: 'Public Sans', sans-serif;
 }
@@ -240,6 +244,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  padding: 0 15px;
 }
 header .logo img {
   height: 22.19px;
@@ -368,6 +373,36 @@ header .menu .burgir.aberto .bot {
 header .links-nav-mobile {
   display: none;
 }
+header .menu-fechado {
+  position: absolute;
+  top: 79px;
+  right: 0;
+  width: 30%;
+  height: 100vh;
+  background: rgba(27, 48, 87, 0.96);
+  box-shadow: 0px 44px 50px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  transform: translateX(100%);
+  transition: all 0.3s ease-in-out;
+}
+header .menu-fechado .links {
+  padding: 63px 77px 0 121px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+header .menu-fechado .links a {
+  padding: 25px 0 15px;
+  border-bottom: 3px solid transparent;
+  width: fit-content;
+}
+header .menu-fechado .links a:hover {
+  border-bottom: 3px solid #C05A94;
+}
+header .menu-fechado.menu-aberto {
+  transform: translateX(0%);
+}
 
 @media (max-width: 991.9px) {
   .outros {
@@ -396,7 +431,7 @@ header .links-nav-mobile {
   .itens-nav .links-nav-mobile {
     display: none;
     position: fixed;
-    top: 90px;
+    top: 79px;
     width: 100%;
     height: 100%;
     left: 0;
@@ -802,6 +837,17 @@ main {
     transform: scale(1.2);
   }
 }
+main, .relatos-blog {
+  background-color: white;
+}
+
+.container-fluid-sm {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .video-container {
   background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
   padding: 140px 0;
@@ -829,13 +875,6 @@ main {
   }
 }
 @media (max-width: 767.9px) {
-  .container-fluid-sm {
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .banner {
     background-image: url(assets/images/background-sm.png);
     background-repeat: no-repeat;
@@ -871,6 +910,10 @@ main {
   }
 }
 @media (max-width: 575.9px) {
+  header {
+    padding: 0 !important;
+  }
+
   .container-fluid-sm {
     padding-right: 0 !important;
     padding-left: 0 !important;

@@ -10,6 +10,17 @@
 @import "praticidade";
 @import "relatos-blog";
 
+
+main, .relatos-blog {
+  background-color: white;
+}
+.container-fluid-sm {
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .video-container {
   background: radial-gradient(125.51% 145.1% at 123.8% -45.1%, #b48c46 13.6%, #1e315b 95.72%);
   padding: 140px 0;
@@ -44,12 +55,6 @@
 }
 
 @media (max-width: 767.9px) {
-  .container-fluid-sm {
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
-  }
   .banner {
     background-image: url(assets/images/background-sm.png);
     background-repeat: no-repeat;
@@ -84,6 +89,9 @@
 }
 
 @media (max-width: 575.9px) {
+  header {
+    padding: 0 !important;
+  }
   .container-fluid-sm {
     padding-right: 0 !important;
     padding-left: 0 !important;
