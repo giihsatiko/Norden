@@ -1,8 +1,8 @@
 <?php include "header.php"; ?>
-<section class="banner d-flex align-items-center">
+<section class="banner d-flex align-items-start  align-md-center">
   <div class="container-lg container-fluid">
     <div class="row align-items-center">
-      <div class="texto-banner col-12 col-sm-7 d-flex flex-column align-items-start">
+      <div class="texto-banner col-12 col-md-6 col-sm-7 d-flex flex-column align-items-start">
         <h1 class="fw-600 fs-40 white">O seu plano de saúde
           para todos os dias.<br>
           A vida inteira.</h1>
@@ -141,7 +141,7 @@
 <section class="praticidade-container">
   <div class="container-lg container-fluid">
     <div class="row justify-content-center">
-      <div class="col-lg-4 col-12 text-center text-lg-start texto-praticidade">
+      <div class="col-lg-4 col-md-9 col-12 text-center text-lg-start texto-praticidade">
         <h2 class="fw-600 fs-32 white pb-4">Mais prático,
           mais acessível.</h2>
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
