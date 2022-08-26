@@ -910,6 +910,7 @@ main, .relatos-blog {
 @media (max-width: 575.9px) {
   header {
     padding: 0 !important;
+    background: transparent !important;
   }
 
   .container-fluid-sm {
