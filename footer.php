@@ -1,5 +1,5 @@
 <footer>
-  <div class="container-lg container-fluid">
+  <div class="container-fluid">
     <div class="links-footer">
       <div class="logo-footer"><img src="assets/images/logo.png" alt="logo"></div>
       <div class="row justify-content-between">
@@ -148,24 +148,17 @@
     </div>
     <div class="responsaveis">
       <div class="row">
-        <div class="col-lg-4 col-12">
-          <div class="d-flex align-items-center oxigen">
-            <p class="m-0 fw-300 fs-13 sans white">© 2022 Personal Care Operadora de Saúde S/A. Criação: </p>
-            <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
-          </div>
+        <div class="col-lg-4 col-12 d-flex align-items-center justify-content-center justify-md-start justify-lg-start oxigen">
+          <p class="m-0 fw-300 fs-13 sans white">© 2022 Personal Care Operadora de Saúde S/A. Criação: <img src="assets/images/oxigenweb.png" alt="logo oxigenweb"></p>
         </div>
-        <div class="col-lg-8 col-12 d-flex flex-md-row flex-column align-md-center align-items-start align-items-sm-center medicos-responsaveis">
-          <div class="d-flex align-md-center align-items-start flex-md-row flex-column responsavel">
-            <img src="assets/images/ans.png" alt="responsável">
-            <p class="m-0 fw-300 fs-13 sans white">Responsável técnico Plano de Saúde:<br>
-              Dr. André Luís Gomes | CRM/SP 139.237</p>
-          </div>
-          <div class="d-flex align-md-center align-items-start justify-content-between hospital-responsavel">
-            <p class="m-0 fw-300 fs-13 sans white">Responsável Norden Hospital:<br>
-              Dr. Antonio C. Pinotti | CRM/SP 44.539
-            </p>
-            <img src="assets/images/abramge.png" alt="logo abramge" class="d-lg-block d-none">
-          </div>
+        <div class="col-lg-8 col-12 d-flex justify-content-between flex-sm-row flex-column align-md-center align-items-start align-items-sm-center medicos-responsaveis">
+          <img src="assets/images/ans.png" alt="responsável">
+          <p class="m-0 fw-300 fs-13 sans white">Responsável técnico Plano de Saúde:<br>
+            Dr. André Luís Gomes | CRM/SP 139.237</p>
+          <p class="m-0 fw-300 fs-13 sans white">Responsável Norden Hospital:<br>
+            Dr. Antonio C. Pinotti | CRM/SP 44.539
+          </p>
+          <img src="assets/images/abramge.png" alt="logo abramge" class="d-md-block d-none">
         </div>
       </div>
     </div>
@@ -306,7 +299,7 @@
         slidesPerView: 1.2,
         spaceBetween: 20,
       },
-      768: {
+      576: {
         slidesPerView: 2,
         spaceBetween: 30,
       },

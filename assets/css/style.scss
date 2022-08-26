@@ -68,6 +68,9 @@
 }
 
 @media (max-width: 575.9px) {
+  footer {
+    padding: 0;
+  }
   nav {
     position: fixed;
     left: 0;

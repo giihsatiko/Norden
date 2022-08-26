@@ -144,9 +144,9 @@
   </div>
 </main>
 <section class="praticidade-container">
-  <div class="container-fluid">
-    <div class="row  justify-content-center">
-      <div class="col-lg-5 col-md-10 col-12 text-center texto-praticidade">
+  <div class="container-lg container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-5 col-12 text-center text-lg-start texto-praticidade">
         <h2 class="fw-600 fs-32 white pb-4">Mais prático,
           mais acessível.</h2>
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
