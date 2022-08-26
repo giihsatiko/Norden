@@ -223,9 +223,9 @@
   </div>
 </section>
 <section class="video-container">
-  <div class="container-fluid">
+  <div class="container-fluid container-lg">
     <div class="row align-items-center justify-content-center">
-      <div class="texto-video col-lg-4 col-md-10 col-12 text-center text-lg-left">
+      <div class="texto-video col-lg-4 col-md-10 col-12 text-center text-lg-start">
         <h2 class="fw-600 fs-32 white">
           Um sistema de saúde para os novos tempos
         </h2>
