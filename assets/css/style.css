@@ -10,6 +10,7 @@
 }
 * a:hover {
   color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -507,7 +508,7 @@ header .menu-fechado.menu-aberto {
 }
 footer {
   background: linear-gradient(90deg, #1e315b 0%, #496dbf 100%);
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .links-footer {
@@ -707,25 +708,6 @@ main {
   padding: 16px 32px;
 }
 
-@media (max-width: 991.9px) {
-  .texto-video h2 {
-    width: 100% !important;
-  }
-
-  .planos-texto p {
-    height: 50px;
-  }
-
-  .plano img {
-    width: 343.42px;
-    height: 287.87px;
-  }
-
-  .plano2 img {
-    width: 300.75px;
-    height: 320.17px;
-  }
-}
 .praticidade-container {
   background: linear-gradient(90deg, #1e315b 0%, #496dbf 100%);
   padding: 139px 0;
@@ -855,6 +837,7 @@ main, .relatos-blog {
 .video-container .texto-video h2 {
   width: 96%;
   line-height: 45px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 991.9px) {
@@ -873,6 +856,10 @@ main, .relatos-blog {
   .titulo-swipers .texto p {
     width: 80%;
   }
+
+  footer {
+    padding: 0 !important;
+  }
 }
 @media (max-width: 767.9px) {
   .banner {
@@ -883,6 +870,7 @@ main, .relatos-blog {
 
   .texto-banner {
     text-align: center;
+    align-items: center;
     padding-top: 70px;
     width: 100% !important;
   }
@@ -907,6 +895,9 @@ main, .relatos-blog {
 
   .video-container {
     padding: 112px 20px;
+  }
+  .video-container .texto-video p {
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 575.9px) {
@@ -934,8 +925,7 @@ main, .relatos-blog {
   }
 
   footer {
-    padding: 0;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
   }
 
   nav {

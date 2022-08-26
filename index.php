@@ -1,8 +1,8 @@
 <?php include "header.php"; ?>
 <section class="banner d-flex align-items-start  align-items-md-center">
-  <div class="container-sm container-fluid">
+  <div class="container-lg container-fluid">
     <div class="row align-items-center">
-      <div class="texto-banner col-12 col-lg-7 col-md-6 col-sm-7 d-flex flex-column align-items-start">
+      <div class="texto-banner col-12 col-lg-7 col-md-6 col-sm-7 d-flex flex-column">
         <img src="assets/images/logo.png" alt="logo" class="d-block d-sm-none logo-sm mx-auto">
         <h1 class="fw-600 fs-40 white">O seu plano de saúde
           para todos os dias.<br>
@@ -148,7 +148,7 @@
         <p class="fw-300 fs-20 sans white">Tenha, na palma da mão, facilidades que descomplicam o acesso aos benefícios do seu plano. O Norden conecta tecnologia e inteligência à saúde para agregar praticidade ao seu dia a dia.</p>
       </div>
       <div class="col-lg-8 col-12">
-        <div class="praticidade d-flex justify-content-center align-items-center flex-wrap">
+        <div class="praticidade d-flex justify-content-center justify-content-lg-end align-items-center flex-wrap">
           <a href="#" class="praticidade-item d-flex alig-items-center justify-content-between">
             <p class="azul-escuro fw-500 fs-20 sans">Meu Norden App</p>
             <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -228,7 +228,7 @@
         <p class="fw-300 fs-20 sans white">Cuidado de ponta a ponta e um olhar integral por meio de um atendimento de excelência. Assista ao vídeo e entenda porquê escolher Norden.
         </p>
       </div>
-      <div class="video col-lg-8 col-12 d-flex justify-content-center">
+      <div class="video col-lg-8 col-12 d-flex justify-content-center justify-content-lg-end">
         <iframe width="727" height="410" src="https://www.youtube.com/embed/49had6xOt08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>

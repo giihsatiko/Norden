@@ -23,60 +23,168 @@
         <a href="index.php" class="logo d-none d-sm-block"><img src="assets/images/logo.png" alt="logo"></a>
         <div class="links-nav fw-500 fs-18 d-none d-lg-flex">
           <div class="dropdown-nav">
-            <a href="#" class="d-flex align-items-center">Planos <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
-          </div>
-          <div class="dropdown-nav">
-            <a class="d-flex align-items-center">Hospital <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <a class="d-flex align-items-center">Planos <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
             <div class="links-dropdown">
               <div class="row">
                 <div class="col-12 col-lg-3 tema-dropdown">
-                  <h3>Facilidades</h3>
+                  <h3>Planos</h3>
                   <div class="itens-sub">
-                    <p>Agilidade e transparência na comunicação, onde você estiver, como quiser</p>
+                    <p>Você escolhe os planos, nós cuidamos de você</p>
                   </div>
                 </div>
                 <div class="col-12 col-lg-3 itens-dropdown">
-                  <h5>USAR</h5>
+                  <h5>CONTRATAR</h5>
                   <div>
-                    <a href="#" class="d-block">Diagnóstico e recomendação</a>
-                    <a href="#" class="d-block">Planos de ação para implantação</a>
-                    <a href="#" class="d-block">Implantação de planos de ação</a>
+                    <a href="#" class="d-block">Simule seu Plano</a>
+                    <a href="#" class="d-block">Comparar Planos</a>
                   </div>
                 </div>
                 <div class="col-12 col-lg-3 itens-dropdown">
                   <h5>CONHECER</h5>
                   <div class="itens-sub">
-                    <a href="#" class="d-block">Conscientização de usuários</a>
-                    <a href="#" class="d-block">Mapeamento de dados</a>
-                    <a href="#" class="d-block">Gestão de acessos</a>
-                    <a href="#" class="d-block">Automatização de políticas</a>
-                    <a href="#" class="d-block">Definição de workflow</a>
-                    <a href="#" class="d-block">Prevenção de vazamento de dados</a>
-                    <a href="#" class="d-block">Automação e avaliação LGPD</a>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-3 itens-dropdown">
-                  <h5>INTERAGIR</h5>
-                  <div>
-                    <a href="#" class="d-block">Gerenciamento do risco de aplicativos</a>
-                    <a href="#" class="d-block">Proteção as aplicações em nuvem</a>
+                    <a href="#" class="d-block">Para sua Família</a>
+                    <a href="#" class="d-block">Para sua Empresa</a>
+                    <a href="#" class="d-block">Perguntas Frequentes</a>
+                    <a href="#" class="d-block">Rede Credenciada</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="dropdown-nav">
-            <a href="#" class="d-flex align-items-center">Sobre nós<img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <a class="d-flex align-items-center">Hospital <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown">
+              <div class="row">
+                <div class="col-12 col-lg-3 tema-dropdown">
+                  <h3>Hospital</h3>
+                  <div class="itens-sub">
+                    <p>Você escolhe os planos, nós cuidamos de você</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONTRATAR</h5>
+                  <div>
+                    <a href="#" class="d-block">Simule seu Plano</a>
+                    <a href="#" class="d-block">Comparar Planos</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONHECER</h5>
+                  <div class="itens-sub">
+                    <a href="#" class="d-block">Para sua Família</a>
+                    <a href="#" class="d-block">Para sua Empresa</a>
+                    <a href="#" class="d-block">Perguntas Frequentes</a>
+                    <a href="#" class="d-block">Rede Credenciada</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
           <div class="dropdown-nav">
-            <a href="#" class="d-flex align-items-center">Contato<img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <a class="d-flex align-items-center">Sobre nós <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown">
+              <div class="row">
+                <div class="col-12 col-lg-3 tema-dropdown">
+                  <h3>Sobre nós</h3>
+                  <div class="itens-sub">
+                    <p>Você escolhe os planos, nós cuidamos de você</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONTRATAR</h5>
+                  <div>
+                    <a href="#" class="d-block">Simule seu Plano</a>
+                    <a href="#" class="d-block">Comparar Planos</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONHECER</h5>
+                  <div class="itens-sub">
+                    <a href="#" class="d-block">Para sua Família</a>
+                    <a href="#" class="d-block">Para sua Empresa</a>
+                    <a href="#" class="d-block">Perguntas Frequentes</a>
+                    <a href="#" class="d-block">Rede Credenciada</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-nav">
+            <a class="d-flex align-items-center">Contato <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown">
+              <div class="row">
+                <div class="col-12 col-lg-3 tema-dropdown">
+                  <h3>Contato</h3>
+                  <div class="itens-sub">
+                    <p>Você escolhe os planos, nós cuidamos de você</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONTRATAR</h5>
+                  <div>
+                    <a href="#" class="d-block">Simule seu Plano</a>
+                    <a href="#" class="d-block">Comparar Planos</a>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 itens-dropdown">
+                  <h5>CONHECER</h5>
+                  <div class="itens-sub">
+                    <a href="#" class="d-block">Para sua Família</a>
+                    <a href="#" class="d-block">Para sua Empresa</a>
+                    <a href="#" class="d-block">Perguntas Frequentes</a>
+                    <a href="#" class="d-block">Rede Credenciada</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
         <!-- fim links nav -->
         <div class="links-nav-mobile">
           <div class="dropdown-nav-mobile">
-            <a href="" class="fw-500 fs-18">Planos <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <a class="fw-500 fs-18">Planos <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown-mobile">
+              <div class="aaaa">
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONHECER</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="dropdown-nav-mobile">
             <a class="fw-500 fs-18">Hospital <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
@@ -123,9 +231,89 @@
           </div>
           <div class="dropdown-nav-mobile">
             <a class="fw-500 fs-18">Sobre nós <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown-mobile">
+              <div class="aaaa">
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONHECER</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="dropdown-nav-mobile">
             <a class="fw-500 fs-18">Contato <img src="assets/images/seta-baixo.png" alt="seta para baixo"></a>
+            <div class="links-dropdown-mobile">
+              <div class="aaaa">
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONHECER</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="itens-dropdown-mobile">
+                  <div class="sub-dropdown">
+                    <h5>CONTRATAR</h5>
+                    <div class="links">
+                      <a href="#">Simule seu Plano</a>
+                      <a href="#">Comparar Planos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="parte-2">
             <div class="links-2">
@@ -153,28 +341,23 @@
                 <div class="col-12 col-lg-3 itens-dropdown">
                   <h5>USAR</h5>
                   <div>
-                    <a href="#" class="d-block">Diagnóstico e recomendação</a>
-                    <a href="#" class="d-block">Planos de ação para implantação</a>
-                    <a href="#" class="d-block">Implantação de planos de ação</a>
+                    <a href="#" class="d-block">Agendamentos</a>
+                    <a href="#" class="d-block">2ª Via de Boleto</a>
+                    <a href="#" class="d-block">Documentos</a>
                   </div>
                 </div>
                 <div class="col-12 col-lg-3 itens-dropdown">
                   <h5>CONHECER</h5>
                   <div class="itens-sub">
-                    <a href="#" class="d-block">Conscientização de usuários</a>
-                    <a href="#" class="d-block">Mapeamento de dados</a>
-                    <a href="#" class="d-block">Gestão de acessos</a>
-                    <a href="#" class="d-block">Automatização de políticas</a>
-                    <a href="#" class="d-block">Definição de workflow</a>
-                    <a href="#" class="d-block">Prevenção de vazamento de dados</a>
-                    <a href="#" class="d-block">Automação e avaliação LGPD</a>
+                    <a href="#" class="d-block">Rede Credenciada</a>
+                    <a href="#" class="d-block">Corpo Clínico</a>
                   </div>
                 </div>
                 <div class="col-12 col-lg-3 itens-dropdown">
                   <h5>INTERAGIR</h5>
                   <div>
-                    <a href="#" class="d-block">Gerenciamento do risco de aplicativos</a>
-                    <a href="#" class="d-block">Proteção as aplicações em nuvem</a>
+                    <a href="#" class="d-block">Aplicativos</a>
+                    <a href="#" class="d-block">Área do beneficiário</a>
                   </div>
                 </div>
               </div>

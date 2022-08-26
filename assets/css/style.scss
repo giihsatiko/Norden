@@ -28,6 +28,7 @@ main, .relatos-blog {
     h2 {
       width: 96%;
       line-height: 45px;
+      padding-bottom: 30px;
     }
   }
 }
@@ -52,6 +53,9 @@ main, .relatos-blog {
       }
     }
   }
+  footer {
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -62,6 +66,7 @@ main, .relatos-blog {
   }
   .texto-banner {
     text-align: center;
+    align-items: center;
     padding-top: 70px;
     width: 100% !important;
     h1 {
@@ -85,7 +90,13 @@ main, .relatos-blog {
 
   .video-container {
     padding: 112px 20px;
+    .texto-video {
+      p {
+        padding-bottom: 30px;
+      }
+    }
   }
+
 }
 
 @media (max-width: 575.9px) {
@@ -110,8 +121,7 @@ main, .relatos-blog {
     }
   }
   footer {
-    padding: 0;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
   }
   nav {
     position: fixed;
